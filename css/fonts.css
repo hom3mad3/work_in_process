@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3037173, 2015-06-05T03:19:54-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Modern20BT-RomanB by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/modern-no-20/modern-no-20/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * Webfont: ImperialURW-Reg by URW++
+ * URL: http://www.myfonts.com/fonts/urw/imperial/urw-imperial-t-regular/
+ * Copyright: Copyright 2010 URW++ Design &amp; Development Hamburg
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3037173
+ * Licensed pageviews: 10,000
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2e57f5");
+
+  
+@font-face {font-family: 'Modern20BT-RomanB';src: url('webfonts/2E57F5_0_0.eot');src: url('webfonts/2E57F5_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E57F5_0_0.woff2') format('woff2'),url('webfonts/2E57F5_0_0.woff') format('woff'),url('webfonts/2E57F5_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ImperialURW-Reg';src: url('webfonts/2E57F5_1_0.eot');src: url('webfonts/2E57F5_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E57F5_1_0.woff2') format('woff2'),url('webfonts/2E57F5_1_0.woff') format('woff'),url('webfonts/2E57F5_1_0.ttf') format('truetype');}
+ 
