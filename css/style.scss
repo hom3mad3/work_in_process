@@ -12,8 +12,8 @@ $link: #e86256; // anchor tags
 $background: #795d6b; // background color
 
 
-#who{background: $secondary-color}
-#stuff{background: $secondary-color}
+#about{background: $secondary-color}
+#designers{background: $secondary-color}
 
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
@@ -252,19 +252,15 @@ opacity: 1;
 /* Footer */
 
 footer {
-    background: none repeat scroll 0 0 $secondary-color;
-    color: $primary-color;
-    bottom: 0;
-    padding: 2em 1em;
-    position: relative;
+   clear: both;
+    margin: 100px auto;
+    overflow: hidden;
    }
-
-footer::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
+footer p {
+margin: auto 2.5em;
+font-size: 2rem;
+line-height: 1.22em;
 }
-
 
 /*Back to Top*/
 
@@ -384,6 +380,16 @@ width: 60%;
 left: 0;
 margin: 1.5em 0;
 }
+
+.profile ul {
+list-style: none;
+margin: 0 auto;
+}
+
+.profile li {
+display: inline-block;
+margin: 1.5em;
+    }
 
 //image stack draggable test
 
