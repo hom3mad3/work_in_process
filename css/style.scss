@@ -320,17 +320,18 @@ footer::after {
 Designers
 ------------------------------*/
 
-
-
 .designers ul {
 position: absolute;
-right: 0;
+right: 5%;
+height: 500px;
 }
 
 .designers li {
-margin: 2em 3em;
 list-style: none;
-    
+position: absolute !important;
+right: 0;
+top: 0;
+z-index: 101;
 }
 
 .designers img {
@@ -341,7 +342,7 @@ list-style: none;
 
 
 .designers h1 {
-font-family: $serif,serif;
+font-family: $serif, serif;
 width: 50%;
 font-size: 9em;
 text-transform: none;
@@ -353,12 +354,36 @@ position: absolute;
 font-size: 1.5em;
 max-width: 768px;
 text-align: left;
-line-height: 1.6;
+line-height: 1em;
 position: absolute;
 bottom: 0;
 left: 0;
 }
 
+.profile h1 {
+font-family: $serif, serif;
+font-size: 12em;
+width: 50%;
+line-height: 1.2em;
+}
+
+.profile h2 {
+font-size: 3em;
+}
+
+.profile h3 {
+font-family: $serif, serif;
+font-size: 2em;
+color: #e86256;
+
+}
+
+.profile p {
+font-family: $sans-serif, sans-serif;
+width: 60%;
+left: 0;
+margin: 1.5em 0;
+}
 
 //image stack draggable test
 
