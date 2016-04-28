@@ -39,12 +39,16 @@ body {
   cursor: auto; }
 
 /* line 61, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+#container {
+  width: 80%; }
+
+/* line 63, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 a {
   color: #162a30;
   text-decoration: none;
   outline: none; }
 
-/* line 67, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 69, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header {
   text-align: justify;
   height: 8em;
@@ -53,72 +57,72 @@ header {
   color: #293a42;
   text-transform: uppercase; }
 
-/* line 76, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 78, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header::after {
   content: '';
   display: inline-block;
   width: 100%; }
 
-/* line 85, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 87, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header > div, header > div::before, header nav, header > div h1 {
   display: inline-block;
   vertical-align: middle;
   text-align: left; }
 
-/* line 91, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 93, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header > div {
   height: 100%; }
 
-/* line 95, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 97, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header > div::before {
   content: '';
   height: 100%; }
 
-/* line 100, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 102, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header > div h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   font-weight: 700; }
 
-/* line 107, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 109, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header > div span {
   margin-bottom: 0;
   margin-left: -23px;
   padding: 0 0.2em; }
 
-/* line 114, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 116, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header svg {
   fill: rgba(238, 24, 76, 0.8);
   width: 1.1em; }
 
-/* line 119, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 121, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header nav a {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   padding: 0 0.6em;
   white-space: nowrap; }
 
-/* line 126, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 128, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 header nav a:last-child {
   padding-right: 0; }
 
 /* Section */
-/* line 132, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 134, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 section {
   padding: 8em 6em;
   background: rgba(149, 165, 166, 0.1); }
 
-/* line 137, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 139, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 section > h1 {
   font-family: 'Modern20BT-RomanB', serif;
   margin-bottom: 1em; }
 
-/* line 142, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 144, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 section > div h1 {
   font-size: 2em;
   padding-bottom: 2%; }
 
-/* line 147, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 149, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 section > div p {
   font-size: 1.5em;
   line-height: 2em;
@@ -126,18 +130,18 @@ section > div p {
   margin: 0 auto;
   letter-spacing: 2px; }
 
-/* line 155, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 157, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 section > div a {
   border-bottom: 1px solid rgba(52, 73, 94, 0.4);
   -webkit-transition: background-color 0.3s, border-color 0.3s;
   transition: background-color 0.3s, border-color 0.3s; }
 
-/* line 163, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 165, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 section > div a:hover, section > div a:focus {
   border-color: rgba(52, 73, 94, 0);
   background-color: rgba(52, 73, 94, 0.1); }
 
-/* line 170, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 172, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .about {
   -moz-column-gap: 2em;
   column-gap: 2em;
@@ -145,11 +149,11 @@ section > div a:hover, section > div a:focus {
   -moz-column-width: 800px;
   column-width: 800px; }
 
-/* line 176, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 178, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .about p {
   margin-bottom: 1.3em; }
 
-/* line 180, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 182, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .group:after {
   clear: both;
   content: ".";
@@ -158,38 +162,38 @@ section > div a:hover, section > div a:focus {
   visibility: hidden; }
 
 /*Grid Menu*/
-/* line 190, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 192, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid {
   width: 100%;
   overflow: auto;
   padding: 0;
   text-align: center; }
 
-/* line 197, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 199, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid ul {
   list-style: none;
   margin: 0 auto; }
 
-/* line 202, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 204, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid li {
   display: inline-block;
   margin: 1.5em;
   width: auto; }
 
-/* line 209, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 211, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid img {
   display: block;
   height: auto;
   max-width: 100%; }
 
-/* line 215, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 217, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid figure {
   height: 100%;
   overflow: hidden;
   position: relative;
   width: auto; }
 
-/* line 222, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 224, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid figcaption {
   left: 0;
   right: 0;
@@ -199,7 +203,7 @@ section > div a:hover, section > div a:focus {
   position: absolute;
   z-index: 100; }
 
-/* line 229, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 231, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid figcaption p {
   color: black;
   background: white;
@@ -209,31 +213,31 @@ section > div a:hover, section > div a:focus {
   width: 50%;
   font-size: 25pt; }
 
-/* line 239, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 241, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid li:hover figcaption {
   opacity: 1; }
 
-/* line 243, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 245, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .grid:after {
   content: "";
   display: table;
   clear: both; }
 
 /* Footer */
-/* line 254, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 256, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 footer {
   clear: both;
   margin: 100px auto;
   overflow: hidden; }
 
-/* line 259, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 261, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 footer p {
   margin: auto 2.5em;
   font-size: 2rem;
   line-height: 1.22em; }
 
 /*Back to Top*/
-/* line 267, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 269, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .cd-top {
   display: inline-block;
   height: 50px;
@@ -254,127 +258,92 @@ footer p {
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s; }
-  /* line 293, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 295, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
     -webkit-transition: opacity .3s 0s, visibility 0s 0s;
     -moz-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s; }
-  /* line 299, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 301, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   .cd-top.cd-is-visible {
     /* the button becomes visible */
     visibility: visible;
     opacity: 1; }
-  /* line 304, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 306, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   .cd-top.cd-fade-out {
     /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
     opacity: .5; }
-  /* line 308, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 310, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   .no-touch .cd-top:hover {
     background-color: #ee184c;
     opacity: 1; }
 
-/*------------------------------
-Designers
-------------------------------*/
-/* line 319, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
-.designers ul {
-  position: absolute;
-  right: 5%;
-  height: 500px; }
-
-/* line 325, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
-.designers li {
-  list-style: none;
-  position: absolute !important;
-  right: 0;
-  top: 0;
-  z-index: 101; }
-
-/* line 333, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
-.designers img {
-  height: auto;
-  width: 300px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
-
-/* line 340, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
-.designers h1 {
-  font-family: 'Modern20BT-RomanB', serif, serif;
-  width: 50%;
-  font-size: 9em;
-  text-transform: none;
-  line-height: 1.2em;
-  position: absolute; }
-
-/* line 349, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
-.designers p {
-  font-size: 1.5em;
-  max-width: 768px;
-  text-align: left;
-  line-height: 1em;
-  position: absolute;
-  bottom: 0;
-  left: 0; }
-
-/* line 359, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 318, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .profile h1 {
   font-family: 'Modern20BT-RomanB', serif, serif;
   font-size: 12em;
   width: 50%;
   line-height: 1.2em; }
 
-/* line 366, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 325, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .profile h2 {
   font-size: 3em; }
 
-/* line 370, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 329, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .profile h3 {
   font-family: 'Modern20BT-RomanB', serif, serif;
   font-size: 2em;
   color: #e86256; }
 
-/* line 377, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 336, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .profile p {
   font-family: 'ImperialURW-Reg', sans-serif, sans-serif;
   width: 60%;
   left: 0;
   margin: 1.5em 0; }
 
-/* line 384, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 343, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .profile ul {
+  position: relative;
   list-style: none;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: right;
+  top: 0;
+  right: 0; }
 
-/* line 389, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 353, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 .profile li {
+  position: absolute;
   display: inline-block;
-  margin: 1.5em; }
+  margin: 1.5em;
+  cursor: move;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.5); }
 
-/* line 396, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 364, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area {
   margin: 127px 0 0 14rem;
   min-height: 500px;
   text-align: center; }
 
-/* line 401, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 369, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area.mode-stack {
   margin-left: 9.8rem;
   margin-right: 7rem; }
 
-/* line 405, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 373, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area .stack.key-all h2 {
   display: none; }
 
-/* line 408, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 376, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area li {
   box-shadow: 0 0 10px rgba(10, 10, 10, 0.5);
   width: auto; }
 
-/* line 412, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 380, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area li img {
   display: block;
   width: 100%; }
 
-/* line 416, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 384, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area.mode-stack .stack {
   display: inline-block;
   height: 300px;
@@ -382,33 +351,33 @@ Designers
   position: relative;
   width: 350px; }
 
-/* line 423, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 391, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area.mode-stack .stack.key-all {
   height: 650px;
   top: -2.5rem;
   width: 650px; }
 
-/* line 428, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 396, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area.mode-stack .stack li {
   left: 0;
   position: absolute !important;
   top: 0;
   z-index: 101; }
 
-/* line 434, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 402, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area.mode-stack .stack li.ui-draggable-dragging a {
   cursor: grabbing; }
 
-/* line 437, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+/* line 405, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
 #stack-area.mode-stack .stack h2 {
   text-align: center; }
 
 /* Media Queries */
 @media screen and (max-width: 720px) {
-  /* line 447, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 415, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   header {
     height: auto; }
-  /* line 453, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 421, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   header > div, header > div h1, header nav {
     height: auto;
     width: auto;
@@ -416,27 +385,27 @@ Designers
     text-align: center;
     padding: 0;
     margin-left: 0.3em; }
-  /* line 462, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 430, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   section {
     font-size: 80%; }
-  /* line 467, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 435, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   .grid-view li {
     float: left;
     margin: 0 0 30px;
     width: 100%; } }
 
 @media screen and (max-width: 420px) {
-  /* line 478, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 446, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   header {
     padding: 0.5em; }
-  /* line 482, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 450, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   header nav a {
     display: none; }
-  /* line 487, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 455, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   img {
     height: auto;
     width: 100%; }
-  /* line 492, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
+  /* line 460, C:/Users/hom3mad3/Documents/GitHub/work_in_process/css/style.scss */
   .grid-view li {
     float: none;
     margin: 0 0 30px;

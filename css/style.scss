@@ -58,6 +58,8 @@ html{-webkit-font-smoothing: antialiased;}
 
 body { background: $primary-color; font-family: $sans-serif, sans-serif; letter-spacing: 3px; cursor: auto;}
 
+#container {width: 80%;}
+
 a {
 	color: $heading;
 	text-decoration: none;
@@ -312,49 +314,6 @@ line-height: 1.22em;
 
 }
 
-/*------------------------------
-Designers
-------------------------------*/
-
-.designers ul {
-position: absolute;
-right: 5%;
-height: 500px;
-}
-
-.designers li {
-list-style: none;
-position: absolute !important;
-right: 0;
-top: 0;
-z-index: 101;
-}
-
-.designers img {
- height: auto;
- width: 300px;
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-
-.designers h1 {
-font-family: $serif, serif;
-width: 50%;
-font-size: 9em;
-text-transform: none;
-line-height: 1.2em;
-position: absolute;
-}
-
-.designers p {
-font-size: 1.5em;
-max-width: 768px;
-text-align: left;
-line-height: 1em;
-position: absolute;
-bottom: 0;
-left: 0;
-}
 
 .profile h1 {
 font-family: $serif, serif;
@@ -382,14 +341,23 @@ margin: 1.5em 0;
 }
 
 .profile ul {
+position: relative;
 list-style: none;
 margin: 0 auto;
+
+text-align: right;
+top: 0;
+    right: 0;
 }
 
 .profile li {
+position: absolute;
 display: inline-block;
 margin: 1.5em;
+cursor: move;
+box-shadow: 0 0 10px rgba(10, 10, 10, 0.5);
     }
+
 
 //image stack draggable test
 
